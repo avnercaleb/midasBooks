@@ -58,3 +58,25 @@
     display: none;
 }
 
+.cabecalho__titulo {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .cabecalho__titulo,
+    .cabecalho__titulo-negrito {
+        font-family: var(--font-alternativa);
+        font-size: 30px;
+    }
+
+    .cabecalho__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .cabecalho__titulo-negrito {
+        font-weight: 700;
+    }
+}
+
