@@ -37,3 +37,34 @@
     padding-left: 2em;       
 }
 
+@media screen and (min-width: 1024px) {
+
+    .contatos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contatos__descricao {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contatos__email {
+        width: 30%;
+    }
+
+    .contatos__titulo {
+        font-size: 24px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1728px) {
+
+    .contatos {
+        padding: 3em 20vw;
+    }
+}
+

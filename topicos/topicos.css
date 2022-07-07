@@ -24,7 +24,26 @@
 }
 
 .topicos__lista {
-    display: flex;
+    display: flex;    
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .topicos__lista-ancora {
+        font-size: 24px;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .topicos {
+        padding: 3em 30vw;
+    }
+}
+
